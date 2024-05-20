@@ -8,7 +8,6 @@ title: Education must also train one for quick, resolute and effective thinking.
 author: vulcan
 categories: "[ Electronics ]"
 tags: "[AI]"
-date: 2024-05-20T22:37:00.000Z
 image: assets/images/3.jpg
 ---
 Memoirs theme has Prism highlighter integrated. I will show you in this post a few examples of how it looks if you are a developer planning to add pieces of code on your website.
