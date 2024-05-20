@@ -3,7 +3,7 @@ layout: post
 title: Call trans opt
 author: vulcan
 categories: "[ Electronics ]"
-tags: "[AI]"
-image: /assets/images/about.png
+tags: Stuff
+image: /assets/images/16.jpg
 ---
 # **The matrix has you**
