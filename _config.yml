@@ -3,7 +3,7 @@ name: ""
 title: "Enter the Cybernetic Site"
 description: "Electronics, Code, AI, Books and Stuff"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: https://cybernetic.site
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
