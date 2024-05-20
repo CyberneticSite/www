@@ -14,7 +14,7 @@ email: info@cybernetic.site
 
 # Authors
 authors:
-  sal:
+  vulcan:
     name: Vulcan Ignis
     display_name: Vulcan
     avatar: 'assets/images/avatar-sal.png'
@@ -22,7 +22,7 @@ authors:
     web: https://cybernetic.site
     twitter: https://twitter.com/vulcanignis
     description: "Cybernetic Alien Cat Father"
-  john:
+  cyberteam:
     name: Cybernetic Team
     display_name: CT    
     avatar: 'assets/images/avatar.png'
