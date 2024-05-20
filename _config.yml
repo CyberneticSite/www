@@ -1,10 +1,10 @@
 # Site
-name: ""
+name: "Cybernetic Site"
 title: "Enter the Cybernetic Site"
 description: "Electronics, Code, AI, Books and Stuff"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: https://cybernetic.site
+baseurl: /
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://cybernetic.site'
@@ -20,7 +20,7 @@ authors:
     avatar: 'assets/images/avatar-sal.png'
     email: vulcan@cybernetic.site
     web: https://cybernetic.site
-    twitter: https://twitter.com/vulcanignis
+    twitter: https://x.com/vulcanignis
     description: "Cybernetic Alien Cat Father"
   cyberteam:
     name: Cybernetic Team
@@ -28,7 +28,7 @@ authors:
     avatar: 'assets/images/avatar.png'
     email: info@cybernetic.site
     web: https://cybernetic.site
-    twitter: https://twitter.com/
+    twitter: https://x.com/cyberneticware
     description: "We manage the cool merch here..."
 
 # Plugins
