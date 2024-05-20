@@ -5,7 +5,7 @@ backend:
   repo: CyberneticSite/www # replace this with your repo info
   branch: master # Branch to update (optional; defaults to master)
   use_graphql: true
-  base_url: https://425dd22a.cybernetic-cms-auth.pages.dev/
+  base_url: https://cybernetic-cms-auth.trwerk.workers.dev/
 media_folder: 'assets/images'
 collections:
   - name: 'blog'
