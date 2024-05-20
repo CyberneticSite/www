@@ -1,8 +1,10 @@
 # config.yml
 
 backend:
-  name: git-gateway
+  name: github
+  repo: CyberneticSite/www # replace this with your repo info
   branch: master # Branch to update (optional; defaults to master)
+  use_graphql: true
 media_folder: 'assets/images'
 collections:
   - name: 'blog'
