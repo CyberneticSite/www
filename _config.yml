@@ -1,7 +1,7 @@
 # Site
 name: "Cybernetic Site"
 title: "Enter the Cybernetic Site"
-description: "Electronics, Code, AI, Books and Stuff"
+description: "Electronics, Code, AI, and Wares"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: /
@@ -17,7 +17,7 @@ authors:
   vulcan:
     name: Vulcan Ignis
     display_name: Vulcan
-    avatar: 'assets/images/avatar-sal.png'
+    avatar: 'assets/images/avatar.png'
     email: vulcan@cybernetic.site
     web: https://cybernetic.site
     twitter: https://x.com/vulcanignis
