@@ -50,11 +50,18 @@
 <nav id="menu">
     <ul>
         <h3>Wayfinder</h3>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-        <li><a href="{{ site.baseurl }}/authors">Cyber Folks<span class="badge badge-primary">team</span></a></li>
-        <li><a href="{{ site.baseurl }}/categories">Topics<span class="badge badge-primary">stories</span></a></li>      
-        <li><a href="{{ site.baseurl }}/tags">Flavours<span class="badge badge-primary">tags</span></a></li>      
+        <li><a href="{{ site.baseurl }}/">Home </a></li>
+        <li><a href="{{ site.baseurl }}/about">About </a></li>
+        <li><a href="{{ site.baseurl }}/authors">Cyber Folks <span class="badge badge-primary">team</span></a></li>
+        <li><a href="{{ site.baseurl }}/categories">Topics <span class="badge badge-primary">stories</span></a></li>      
+        
+        {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <li><a href="{{ site.url }}/categories/#{{ category_name | slugize }}">{{ category_name | slugsize }}</a></li>
+        {% endfor %}        
+        
+        
+        <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">tags</span></a></li>      
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
     </ul>   
 </nav>
