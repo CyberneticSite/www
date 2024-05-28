@@ -24,6 +24,6 @@ collections:
       - { label: 'Image', name: 'image', widget: 'image', choose_url: true, default: "assets/images/logo.png" }
       - { label: 'TOC', name: 'toc', widget: 'boolean', default: false }
       - { label: 'TOC Preface', name: 'beforetoc', widget: 'text', required: false }
+      - { label: 'Rating', name: 'rating', widget: 'number', default: 0, value_type: "int", min: 0, max: 5, step: 1, required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
 
