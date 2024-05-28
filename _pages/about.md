@@ -1,10 +1,10 @@
 ---
 layout: page
-title: The Cybernetic Site - Electronics, Code, AI, Books and Stuff 
+title: Electronics, Code, AI, and Cyber Ware
 permalink: /about
-comments: false
 image: assets/images/about.png
 imageshadow: true
+comments: false
 ---
 
 Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find all about Electronics, Code, AI, Books and Cats & Stuff. You can buy some merch too.
