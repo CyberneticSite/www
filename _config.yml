@@ -54,7 +54,7 @@ mermaid:
 #    category: '/category/:name/'
 
 jekyll-archives:
-  enabled: []
+  enabled: all
   layout: archive
   permalinks:
     year: '/:year/'
