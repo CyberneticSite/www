@@ -39,7 +39,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
-    
+  - jekyll-mermaid
+
+# Mermaid
+mermaid:
+  src: 'assets/js/mermaid.min.js'
+
 # Archives
 jekyll-archives:
   enabled:
