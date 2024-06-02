@@ -19,9 +19,8 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'select', options: [vulcan, cyberteam] }
-      - { label: 'Categories', name: 'categories', widget: 'select', options: [Electronics, Code, AI, Hardware, Wares, Review] }
-      - { label: 'Topics', name: 'cat', widget: 'select', options: [Electronics, Code, AI, Hardware, Wares, Review] }
-      - { label: 'Tags', name: 'tags', widget: 'string' }
+      - { label: 'Topics', name: 'categories', widget: 'select', options: [Electronics, Code, AI, Hardware, Wares, Review] }
+      - { label: 'Flavours', name: 'tags', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', choose_url: true, default: "assets/images/logo.png" }
       - { label: 'TOC', name: 'toc', widget: 'boolean', default: false }
       - { label: 'TOC Preface', name: 'beforetoc', widget: 'text', required: false }
