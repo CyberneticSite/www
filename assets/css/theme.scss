@@ -183,7 +183,7 @@ img, img:hover {
     animation: animate2 .3s;
     &.active {
             z-index: 4;
-            background: rgb(80 31 132 / 70%)
+            background: rgb(80, 31, 132, .7);
             animation: animate .3s;
     }
 }
@@ -193,7 +193,7 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 420px;
-    background: rgb(255, 185, 30 / 70%);
+    background: rgba(255, 185, 30, .7);
     padding: 0;
     margin: 0;
     transform: translate(-100%, 0);
