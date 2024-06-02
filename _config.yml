@@ -46,23 +46,27 @@ mermaid:
   src: 'assets/js/mermaid.min.js'
 
 # Archives
-#jekyll-archives:
-#  enabled:
-#    - categories
-#  layout: archive
-#  permalinks:
-#    category: '/category/:name/'
-
 jekyll-archives:
-  enabled: all
+  enabled:
+    - categories
   layout: archive
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: 'category/:name/'
+    category: '/cat/:name/'
     
+
+collections:
+    cat:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: cat
+    values:
+      layout: "cat"
+
+
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
@@ -78,8 +82,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-client: "ca-pub-xxxx"
+adsense-data-ad-slot: "xxxx"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
