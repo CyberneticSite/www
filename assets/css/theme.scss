@@ -3,11 +3,11 @@
 ---
 
 $brown: #B59F62;
-$teal: #40FFDC;
+$yellow: #fff940;
 $black: #111;
-$primary: $teal;
+$primary: $yellow;
 $dark:    $black;
-$enable-rounded: false;
+$enable-rounded: true;
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
