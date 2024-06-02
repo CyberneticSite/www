@@ -51,7 +51,11 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
+<<<<<<< HEAD
     category: '/cat/:name/'
+=======
+    category: '/category/:name/'
+>>>>>>> parent of ff38b82 (Update _config.yml)
     
 
 collections:
