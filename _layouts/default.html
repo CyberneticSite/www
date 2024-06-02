@@ -57,13 +57,10 @@
 
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li><a href="{{ site.url }}/categories/#{{ category_name | slugize }}">{{ category_name | slugsize }}</a></li>
+        <li><a href="{{ site.url }}/{{ category_name | slugize }}">{{ category_name | slugsize }}</a></li>
         {% endfor %}        
         
-        {% for category in site.categories %}
-        <div class="categories-title"><a href="/tags/#{{ category | first }}">{{ category | first }}</a></div>   
-        {% endfor %}
-        
+      
         <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">tags</span></a></li>      
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
     </ul>   
