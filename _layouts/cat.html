@@ -9,10 +9,6 @@ permalink: "/cat.html"
   {% assign posts = site.posts | where: 'cat', page.title %}
   {% for post in posts %}
   {% include postbox.html %}
-
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
   {% endfor %}
 </ul>
 
