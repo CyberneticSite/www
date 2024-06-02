@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: cat
 title: Electronics
 permalink: /electronics
 comments: false
