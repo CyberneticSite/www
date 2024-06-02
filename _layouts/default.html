@@ -55,7 +55,7 @@
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <li><a href="{{ site.url }}/{{ category_name | slugize | downcase }}"><span class="badge badge-dark">//{{ category_name | slugsize }}</span></a></li>
         {% endfor %}        
-        <li><a href="{{ site.baseurl }}/categories">All Stories <span class="badge badge-primary">//topics</span></a></li>      
+        <li><a href="{{ site.baseurl }}/topics">All Stories <span class="badge badge-primary">//topics</span></a></li>      
         <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">#tags</span></a></li>      
         <li><a href="{{ site.baseurl }}/team">Cyber Team <span class="badge badge-primary">*team</span></a></li>
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
