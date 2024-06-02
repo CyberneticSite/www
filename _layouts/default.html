@@ -50,11 +50,12 @@
 <nav id="menu">
     <ul>
         <h3>Wayfinder</h3>
-        <li><a href="{{ site.baseurl }}/">Home </a></li><li><a href="{{ site.baseurl }}/categories">Stories <span class="badge badge-primary">//topics</span></a></li>      
+        <li><a href="{{ site.baseurl }}/">Home </a></li>
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <li><a href="{{ site.url }}/{{ category_name | slugize | downcase }}">//{{ category_name | slugsize }}</a></li>
         {% endfor %}        
+        <li><a href="{{ site.baseurl }}/categories">All Stories <span class="badge badge-primary">//topics</span></a></li>      
         <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">#tags</span></a></li>      
         <li><a href="{{ site.baseurl }}/authors">Cyber Team <span class="badge badge-primary">team</span></a></li>
         <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
