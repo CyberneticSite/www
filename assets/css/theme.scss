@@ -126,7 +126,7 @@ img, img:hover {
     height: 100%;
     border-right: solid rgba(0, 0, 0, 0.07) 1px;
     z-index: 1022;
-    background:rgb(255, 185, 30);
+    background:#ffb91e;
 }
 .nav-icon {
     position: fixed;
@@ -183,7 +183,7 @@ img, img:hover {
     animation: animate2 .3s;
     &.active {
             z-index: 4;
-            background: rgb(80, 31, 132, .7);
+            background: #501f84b3;
             animation: animate .3s;
     }
 }
@@ -193,7 +193,7 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 420px;
-    background: rgba(255, 185, 30, .7);
+    background: #ffb91eb3;
     padding: 0;
     margin: 0;
     transform: translate(-100%, 0);
