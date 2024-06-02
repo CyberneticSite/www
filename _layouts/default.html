@@ -49,14 +49,11 @@
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-        </a>  
-        <h3>Wayfinder</h3>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></a>  
         <li><a href="{{ site.baseurl }}/">Home </a></li>
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li><a href="{{ site.url }}/{{ category_name | slugize | downcase }}" class="badge badge-primary">//{{ category_name | slugsize }}</a></li>
+        <li><a href="{{ site.url }}/{{ category_name | slugize | downcase }}"><span class="badge badge-dark">//{{ category_name | slugsize }}</span></a></li>
         {% endfor %}        
         <li><a href="{{ site.baseurl }}/categories">All Stories <span class="badge badge-primary">//topics</span></a></li>      
         <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">#tags</span></a></li>      
