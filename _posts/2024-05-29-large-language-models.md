@@ -4,7 +4,7 @@ title: Large Language Models
 author: vulcan
 categories: AI
 tags: LLM
-image: https://images.unsplash.com/photo-1696258686286-1191184126aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTcyMDF8MHwxfHNlYXJjaHwzM3x8QUl8ZW58MHx8fHwxNzE2OTQ3NzUwfDA&ixlib=rb-4.0.3&q=80&w=1080
+image: /assets/images/android-5242149_1280.jpg
 toc: false
 beforetoc: ""
 rating: 0
