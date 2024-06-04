@@ -1,6 +1,6 @@
 ---
 layout: cat
-title: Wares
+title: Hardware
 permalink: /wares
 comments: false
 ---
