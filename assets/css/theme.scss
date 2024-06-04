@@ -107,15 +107,15 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Sixtyfour", sans-serif;
-    font-weight:700;
+    font-family: "Workbench", sans-serif;
+    font-weight:400;
 }
 .site-content {
     padding-top:50px;
 }
 .sitetag {
     font-family: "Rubik Glitch", system-ui;
-    font-weight:700;    
+    font-weight:400;    
     line-height:1.3;
     font-size:35px;
     @include media-breakpoint-up(sm) {
@@ -479,7 +479,7 @@ img, img:hover {
 .posttitle {
     font-family: "Rubik Glitch", system-ui;
     font-size:50px;
-    font-weight:700;
+    font-weight:400;
     line-height:1.2;
 }
 .entry-featured-image {  
