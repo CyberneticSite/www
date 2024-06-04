@@ -1,6 +1,6 @@
 ---
 layout: cat
-title: Wares
-permalink: /wares
+title: Space
+permalink: /space
 comments: false
 ---

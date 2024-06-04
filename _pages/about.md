@@ -8,4 +8,6 @@ comments: false
 ---
 Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find all about Electronics, Code, AI, Books and Cats & Stuff. You can buy some merch too.
 
-<a target="_blank" href="https://cybernetic.site/categories" class="btn btn-dark"> Check out all our Categories! &rarr;</a>
+<a href="https://cybernetic.site/topics" class="btn btn-dark"> Check out all our Topics... &rarr;</a>
+
+<a href="https://cybernetic.site/tags" class="btn btn-dark"> ... And Flavours &rarr;</a>
