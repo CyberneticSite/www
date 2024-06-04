@@ -2,7 +2,7 @@
 layout: post
 title: RelaxCam Review
 author: vulcan
-categories: Review
+categories: Reviews
 tags: relaxcam device
 image: /assets/images/cctv-surveillance-camera-7267551_1280.jpg
 toc: false
