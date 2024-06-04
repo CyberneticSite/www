@@ -15,15 +15,86 @@ $enable-rounded: false;
 @import 'bootstrap/bootstrap';
 @import 'stars';
 
-.jersey-25-charted-regular {
-    font-family: "Jersey 25 Charted", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+// fonts
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.workbench-special {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+.sixtyfour-special {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+.rubik-glitch-regular {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 // general
 body, input, button, select, optgroup, textarea {   
-    font-family: "Jersey 25 Charted", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 body {
     line-height:1.7;
@@ -38,6 +109,7 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: "Rubik Glitch", system-ui;
     font-weight:700;
 }
 .site-content {
