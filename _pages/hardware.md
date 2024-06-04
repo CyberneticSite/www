@@ -1,6 +1,6 @@
 ---
 layout: cat
 title: Hardware
-permalink: /wares
+permalink: /hardware
 comments: false
 ---
