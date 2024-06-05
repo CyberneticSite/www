@@ -282,6 +282,7 @@ img, img:hover {
         width: 100%;
         padding: 80px 30px 80px 100px;
         h3 {
+            font-family: "Rubik Glitch", system-ui;
             margin-bottom:30px;
         }
         li {
@@ -290,10 +291,11 @@ img, img:hover {
             a {
                 width: 100%;
                 display: inline-block;
-                padding: 2vh 0px 2vh 0px;
+                padding: 1vh 0px 1vh 0px;
                 line-height: 20px;
                 text-decoration: none;
                 color: #000000;
+                font-family: "Workbench", sans-serif;
                 font-weight: 400;
                 font-size: 18px;
                 position: relative;
