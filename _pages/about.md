@@ -14,7 +14,7 @@ Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find
 
 ### Need some cool stuff / gear / cyber ware?
 
-<a href="{{ site.baseurl }}/wares" class="btn btn-dark"> $$$ BUFU: Buy us, F*ck U! $$$ &rarr;</a>
+<a href="{{ site.baseurl }}/wares" class="btn btn-dark"> BUFU: Buy US, F*ck U! &rarr;</a>
 
 ### Want to know who is on the team?
 
