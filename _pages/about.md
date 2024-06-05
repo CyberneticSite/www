@@ -8,6 +8,19 @@ comments: false
 ---
 Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find all about Electronics, Code, AI, Books and Cats & Stuff. You can buy some merch too.
 
-<a href="https://cybernetic.site/topics" class="btn btn-dark"> Check out all our Topics... &rarr;</a>
+<a href="{{ site.baseurl }}/topics" class="btn btn-dark"> Check out all our Topics... &rarr;</a>
 
-<a href="https://cybernetic.site/tags" class="btn btn-dark"> ... And Flavours &rarr;</a>
+<a href="{{ site.baseurl }}/tags" class="btn btn-dark"> ... And Flavours &rarr;</a>
+
+### Need some cool stuff / gear / cyber ware?
+
+<a href="{{ site.baseurl }}/wares" class="btn btn-dark"> $$$ BUFU: Buy us, F*ck U! $$$ &rarr;</a>
+
+### Want to know who is on the team?
+
+<a href="{{ site.baseurl }}/team">Cyber Team <span class="badge badge-primary">*team</span></a>
+
+### Fancy a chat?
+
+<a href="{{ site.baseurl }}/contact" class="btn btn-dark"> Go to the contact form! &rarr;</a>
+
