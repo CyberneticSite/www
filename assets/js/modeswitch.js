@@ -43,4 +43,4 @@ function setThemeToggleIcon(isDark) {
 if (theme === "dark" || theme === "light") {
   setTheme(theme);
   setThemeToggleIcon(theme === "dark");
-}
+} 
