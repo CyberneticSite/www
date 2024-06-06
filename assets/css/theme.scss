@@ -197,6 +197,7 @@ blockquote {
 .hamburger-bar, 
 .hamburger-bar:before, 
 .hamburger-bar:after, 
+.mode-toggle,
 #menu, 
 body, 
 a, 
@@ -829,7 +830,7 @@ body.active-side {
 }
 
 @media (max-width: 600px) {
-    .nav-icon, .sidebar, .share, .wrap-search, .mode-toggle {
+    .nav-icon, .sidebar, .share, .wrap-search, .mode-toggle, .sun, .moon {
         position:relative;
     }
     .container {
