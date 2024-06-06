@@ -1,3 +1,9 @@
+// Check if the system prefers dark mode
+const systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+// Get the current theme from session storage
+let theme = sessionStorage.getItem('theme');
+
 // Set the initial theme toggle icon based on system preferences
 console.log("Setting initial theme toggle icon based on system preferences. systemInitiatedDark.matches =", systemInitiatedDark.matches);
 setThemeToggleIcon(systemInitiatedDark.matches);
@@ -39,7 +45,7 @@ function setTheme(theme) {
 
 // Function to set the theme toggle icon
 function setThemeToggleIcon(isDark) {
-  const icon = isDark ? "<i class=\"fa-regular fa-moon-stars\"></i>Dark" : "<i class=\"fa-regular fa-sun\"></i>Light";
+  const icon = isDark ? "<i class=\"fa-regular fa-moon-stars\"></i>" : "<i class=\"fa-regular fa-sun\"></i>";
   console.log("Setting theme toggle icon to", icon);
   document.getElementById("theme-toggle").innerHTML = icon;
 }
