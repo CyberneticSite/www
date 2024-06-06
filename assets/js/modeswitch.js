@@ -35,7 +35,7 @@ function setTheme(theme) {
 
 // Function to set the theme toggle icon
 function setThemeToggleIcon(isDark) {
-  const icon = isDark ? "<i class=\"fa-regular fa-moon-stars\"></i>" : "<i class=\"fa-regular fa-sun\"></i>";
+  const icon = isDark ? "<i class=\"fa-regular fa-moon-stars\"></i>Dark" : "<i class=\"fa-regular fa-sun\"></i>Light";
   document.getElementById("theme-toggle").innerHTML = icon;
 }
 
