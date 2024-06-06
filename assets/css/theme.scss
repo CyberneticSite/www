@@ -97,32 +97,39 @@ $enable-rounded: false;
 }
 
 // Dark and light modes
-html, html[data-theme="light"] {
-    --link-color: {{ page.mode-light-link }};
-    --main-background-color: {{ page.mode-light-bg }};
-    --main-text-color: {{ page.mode-light-fg }};
+/* Default styles for light mode */
+html,
+html[data-theme="light"] {
+  --link-color: {{ page.mode-light-link }};
+  --main-background-color: {{ page.mode-light-bg }};
+  --main-text-color: {{ page.mode-light-fg }};
 }
 
+/* Styles for dark mode */
 html[data-theme="dark"] {
+  --link-color: {{ page.mode-dark-link }};
+  --main-background-color: {{ page.mode-dark-bg }};
+  --main-text-color: {{ page.mode-dark-fg }};
+}
+
+/* Styles for systems that prefer dark mode */
+@media (prefers-color-scheme: dark) {
+  /* Apply dark mode styles to systems that prefer dark mode */
+  html,
+  html[data-theme="dark"] {
     --link-color: {{ page.mode-dark-link }};
     --main-background-color: {{ page.mode-dark-bg }};
     --main-text-color: {{ page.mode-dark-fg }};
+  }
+
+  /* Apply light mode styles to systems that prefer dark mode but have light mode enabled */
+  html[data-theme="light"] {
+    --link-color: {{ page.mode-light-link }};
+    --main-background-color: {{ page.mode-light-bg }};
+    --main-text-color: {{ page.mode-light-fg }};
+  }
 }
 
-
-@media (prefers-color-scheme: dark) {
-    html, html[data-theme="dark"] {
-        --link-color: {{ page.mode-dark-link }};
-        --main-background-color: {{ page.mode-dark-bg }};
-        --main-text-color: {{ page.mode-dark-fg }};
-    }
-
-    html[data-theme="light"] {
-        --link-color: {{ page.mode-light-link }};
-        --main-background-color: {{ page.mode-light-bg }};
-        --main-text-color: {{ page.mode-light-fg }};
-  } 
-}
 
 
 
