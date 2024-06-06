@@ -70,13 +70,13 @@
 </div>   
 <div class="nav-icon">
     <div class="hamburger-bar"></div>
-    <div><a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a></div>
 </div>
+<div class="mode-toggle"><a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a></div>
+
 <div id="blackover-nav" class="blackover"></div>
 <nav id="menu">
     <ul>
         <h3>Wayfinder</h3>
-        <li><a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a></li>
         <li><a href="{{ site.baseurl }}/">Home </a></li>
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
