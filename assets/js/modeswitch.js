@@ -5,7 +5,6 @@ const systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme = sessionStorage.getItem('theme');
 
 // Set the initial theme toggle icon based on system preferences
-console.log("Setting initial theme toggle icon based on system preferences. systemInitiatedDark.matches =", systemInitiatedDark.matches);
 setThemeToggleIcon(systemInitiatedDark.matches);
 
 // Listen for changes to the system's preferred color scheme
@@ -15,7 +14,6 @@ systemInitiatedDark.addListener(prefersColorTest);
 function prefersColorTest(systemInitiatedDark) {
   // Set the theme based on system preferences
   const newTheme = systemInitiatedDark.matches ? 'dark' : 'light';
-  console.log("System color scheme preference changed. New theme =", newTheme);
   setTheme(newTheme);
   // Update the theme toggle icon
   setThemeToggleIcon(systemInitiatedDark.matches);
@@ -30,7 +28,6 @@ function modeSwitcher() {
 
   // Toggle the theme based on the current theme
   const newTheme = theme === "dark" ? "light" : "dark";
-  console.log("Theme switcher called. New theme =", newTheme);
   setTheme(newTheme);
   // Update the theme toggle icon
   setThemeToggleIcon(newTheme === "dark");
@@ -38,21 +35,18 @@ function modeSwitcher() {
 
 // Function to set the theme
 function setTheme(theme) {
-  console.log("Setting theme to", theme);
   document.documentElement.setAttribute('data-theme', theme);
   sessionStorage.setItem('theme', theme);
 }
 
 // Function to set the theme toggle icon
 function setThemeToggleIcon(isDark) {
-  const icon = isDark ? "<i class=\"fa-regular fa-moon-stars\"></i>" : "<i class=\"fa-regular fa-sun\"></i>";
-  console.log("Setting theme toggle icon to", icon);
+  const icon = isDark ?  "<i class=\"fa-regular fa-sun\"></i>" : "<i class=\"fa-regular fa-moon\"></i>";
   document.getElementById("theme-toggle").innerHTML = icon;
 }
 
 // Set the initial theme based on session storage
 if (theme === "dark" || theme === "light") {
-  console.log("Setting initial theme based on session storage. Theme =", theme);
   setTheme(theme);
   setThemeToggleIcon(theme === "dark");
 }
