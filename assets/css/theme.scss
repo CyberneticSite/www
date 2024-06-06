@@ -1,13 +1,19 @@
 ---
 
 ---
-
-$brown: #B59F62;
+;
+$brown: #1f581e;
 $yellow: #ffc308;
 $black: #111;
 $primary: $yellow;
 $dark:    $black;
 $enable-rounded: false;
+$mode-light-bg: #f1f1f1;
+$mode-light-fg: #242424;
+$mode-light-link: #ffc308;
+$mode-dark-bg: #1f004a;
+$mode-dark-fg: #ffffff;
+$mode-dark-link: #ffc308;
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -92,29 +98,29 @@ $enable-rounded: false;
 
 // Dark and light modes
 html, html[data-theme="light"] {
-	--link-color: #0070c9;
-  --main-background-color: #e6e6e6;
-  --main-text-color: #333333;
+    --link-color: $mode-light-link;
+    --main-background-color: $mode-light-bg;
+    --main-text-color: $mode-light-fg;
 }
 
 html[data-theme="dark"] {
-  --link-color: #64d2ff;
-  --main-background-color: #333333;
-  --main-text-color: #d9d9d9; 
+    --link-color: $mode-dark-link;
+    --main-background-color: $mode-dark-bg;
+    --main-text-color: $mode-dark-fg;
 }
 
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-      --link-color: #64d2ff;
-    	--main-background-color: #333333;
-    	--main-text-color: #d9d9d9; 
+        --link-color: $mode-dark-link;
+        --main-background-color: $mode-dark-bg;
+        --main-text-color: $mode-dark-fg;
     }
 
     html[data-theme="light"] {
-		  --link-color: #006dc7;
-    	--main-background-color: #e6e6e6;
-  	 --main-text-color: #333333;
+        --link-color: $mode-light-link;
+        --main-background-color: $mode-light-bg;
+        --main-text-color: $mode-light-fg;
   } 
 }
 
