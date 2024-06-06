@@ -90,16 +90,49 @@ $enable-rounded: false;
   font-style: normal;
 }
 
+// Dark and light modes
+html, html[data-theme="light"] {
+	--link-color: #0070c9;
+  --main-background-color: #e6e6e6;
+  --main-text-color: #333333;
+}
+
+html[data-theme="dark"] {
+  --link-color: #64d2ff;
+  --main-background-color: #333333;
+  --main-text-color: #d9d9d9; 
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+      --link-color: #64d2ff;
+    	--main-background-color: #333333;
+    	--main-text-color: #d9d9d9; 
+    }
+
+    html[data-theme="light"] {
+		  --link-color: #006dc7;
+    	--main-background-color: #e6e6e6;
+  	 --main-text-color: #333333;
+  } 
+}
+
+
+
 // general
 body, input, button, select, optgroup, textarea {   
     font-family: "PT Sans", sans-serif;
 }
 body {
     line-height:1.7;
-    background: #f4f4f4;
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
+    //    background: #f4f4f4;
 }
 a {
-    color: darken($primary, 24%);
+    color: var(--link-color);
+    //color: darken($primary, 24%);
 }
 img {
     max-width:100%;
