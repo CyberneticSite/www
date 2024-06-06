@@ -1,4 +1,10 @@
 ---
+mode-light-bg: #f1f1f1
+mode-light-fg: #242424
+mode-light-link: #ffc308
+mode-dark-bg: #1f004a
+mode-dark-fg: #ffffff
+mode-dark-link: #ffc308
 ---
 
 $brown: #1f581e;
@@ -7,12 +13,7 @@ $black: #111;
 $primary: $yellow;
 $dark:    $black;
 $enable-rounded: false;
-$mode-light-bg: #f1f1f1;
-$mode-light-fg: #242424;
-$mode-light-link: #ffc308;
-$mode-dark-bg: #1f004a;
-$mode-dark-fg: #ffffff;
-$mode-dark-link: #ffc308;
+
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -97,29 +98,29 @@ $mode-dark-link: #ffc308;
 
 // Dark and light modes
 html, html[data-theme="light"] {
-    --link-color: $mode-light-link;
-    --main-background-color: $mode-light-bg;
-    --main-text-color: $mode-light-fg;
+    --link-color: {{ page.mode-light-link }};
+    --main-background-color: {{ page.mode-light-bg }};
+    --main-text-color: {{ page.mode-light-fg }};
 }
 
 html[data-theme="dark"] {
-    --link-color: $mode-dark-link;
-    --main-background-color: $mode-dark-bg;
-    --main-text-color: $mode-dark-fg;
+    --link-color: {{ page.mode-dark-link }};
+    --main-background-color: {{ page.mode-dark-bg }};
+    --main-text-color: {{ page.mode-dark-fg }};
 }
 
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-        --link-color: $mode-dark-link;
-        --main-background-color: $mode-dark-bg;
-        --main-text-color: $mode-dark-fg;
+        --link-color: {{ page.mode-dark-link }};
+        --main-background-color: {{ page.mode-dark-bg }};
+        --main-text-color: {{ page.mode-dark-fg }};
     }
 
     html[data-theme="light"] {
-        --link-color: $mode-light-link;
-        --main-background-color: $mode-light-bg;
-        --main-text-color: $mode-light-fg;
+        --link-color: {{ page.mode-light-link }};
+        --main-background-color: {{ page.mode-light-bg }};
+        --main-text-color: {{ page.mode-light-fg }};
   } 
 }
 
