@@ -5,6 +5,7 @@
 </style>
 
 <div class="wrap-search">
+    <div class="mode-toggle d-flex align-items-center ml-auto" id="theme-toggle" onclick="modeSwitcher()"></div>
     <div class="d-flex align-items-center ml-auto">
         <i class="fas fa-search show-search"></i>
         <form class="bd-search ml-3" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
