@@ -41,7 +41,7 @@ function setTheme(theme) {
 
 // Function to set the theme toggle icon
 function setThemeToggleIcon(isDark) {
-  const icon = isDark ? "<i class=\"fa-regular fa-sun mode-toggle sun\"></i> Switch to Cyber Night" : "<i class=\"fa-regular fa-moon-stars mode-toggle moon\"></i> Switch to Cyber Day" ;
+  const icon = isDark ? "<i class=\"fa-regular fa-sun mode-toggle sun\"></i><span class=\"badge badge-dark\">Switch to Cyber Day</span>" : "<i class=\"fa-regular fa-moon-stars mode-toggle moon\"></i><span class=\"badge badge-dark\">Switch to Cyber Night</span>" ;
   document.getElementById("theme-toggle").innerHTML = icon;
 }
 
