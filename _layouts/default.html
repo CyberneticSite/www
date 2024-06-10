@@ -76,7 +76,6 @@
 <nav id="menu">
     <ul>
         <h3>Wayfinder</h3>
-        <li id="theme-toggle" onclick="modeSwitcher()"></li>
         <li><a href="{{ site.baseurl }}/">Home </a></li>
         {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -85,6 +84,7 @@
         <li><a href="{{ site.baseurl }}/topics">All Stories <span class="badge badge-primary">//topics</span></a></li>      
         <li><a href="{{ site.baseurl }}/tags">Flavours <span class="badge badge-primary">#tags</span></a></li>      
         <li><a href="{{ site.baseurl }}/about">About </a></li>
+        <li id="theme-toggle" onclick="modeSwitcher()"></li>
     </ul>   
 </nav>
 
