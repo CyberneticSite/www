@@ -303,7 +303,7 @@ img, img:hover {
 
     /* Style the moon icon */
     &.moon::before {
-      content: "\f186";
+      content: "\f186 ";
       font-family: "Font Awesome 6 Free";
       font-weight: 900;
       color: #000000;
@@ -311,7 +311,7 @@ img, img:hover {
 
     /* Style the sun icon */
     &.sun::before {
-      content: "\f185";
+      content: "\f185 ";
       font-family: "Font Awesome 6 Free";
       font-weight: 900;
       color: #ffffff;
