@@ -112,10 +112,13 @@ $cursorText: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' w
     --bg-color-dark: {{ page.mode-dark-bg }};
     --text-color-dark: {{ page.mode-dark-fg }};
 
+    --cursorDefault: $cursorDefault;
+    --cursorPointer: $cursorPointer; 
+    --cursorGrab: $cursorGrab; 
+    --cursorGrabbed: $cursorGrabbed; 
+    --cursorText: $cursorText;
 
-
-
-    cursor: $cursorDefault;
+    cursor: var(--cursorDefault);
   
     --link-color: var(--link-color-light);
     --main-background-color: var(--bg-color-light);
