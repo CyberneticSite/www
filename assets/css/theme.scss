@@ -115,7 +115,7 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     --text-color-dark: {{ page.mode-dark-fg }};
 
    
-    cursor: $cursorDefault
+    cursor: $cursorDefault;
   
     --link-color: var(--link-color-light);
     --main-background-color: var(--bg-color-light);
