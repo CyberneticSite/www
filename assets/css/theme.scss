@@ -130,22 +130,29 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
   // Styles
 
 /* Default styles for light mode */
-html,html[data-theme="light"],
-@media (prefers-color-scheme: light) {
+html, html[data-theme="light"], @media (prefers-color-scheme: light) {
     --link-color: var(--link-color-light);
     --main-background-color: var(--bg-color-light);
     --main-text-color: var(--text-color-light);
 }
 
 /* Styles for dark mode */
-html, html[data-theme="dark"],
-@media (prefers-color-scheme: dark) {
+html, html[data-theme="dark"],@media (prefers-color-scheme: dark) {
     --link-color: var(--link-color-dark);
     --main-background-color: var(--bg-color-dark);
     --main-text-color: var(--text-color-dark);
 }  
 
-
+/* Styles for dark mode */
+/*  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --link-color: var(--link-color-dark);
+      --main-background-color: var(--bg-color-dark);
+      --main-text-color: var(--text-color-dark);
+    }
+  }
+*/  
 
   
 // Cursors
