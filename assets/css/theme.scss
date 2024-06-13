@@ -133,17 +133,17 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 html,
 html[data-theme="light"],
 @media (prefers-color-scheme: light) {
-  --link-color: {{ page.mode-light-link }};
-  --main-background-color: {{ page.mode-light-bg }};
-  --main-text-color: {{ page.mode-light-fg }};
+    --link-color: var(--link-color-light);
+    --main-background-color: var(--bg-color-light);
+    --main-text-color: var(--text-color-light);
 }
 
 /* Styles for dark mode */
 html[data-theme="dark"],
 @media (prefers-color-scheme: dark) {
-  --link-color: {{ page.mode-dark-link }};
-  --main-background-color: {{ page.mode-dark-bg }};
-  --main-text-color: {{ page.mode-dark-fg }};
+    --link-color: var(--link-color-dark);
+    --main-background-color: var(--bg-color-dark);
+    --main-text-color: var(--text-color-dark);
 }  
 
 /* Styles for dark mode */
