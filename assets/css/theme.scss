@@ -291,7 +291,7 @@ img, img:hover {
     top: 15px;
     width: 50px;
     height: 50px;
-    cursor: pointer;
+    cursor: $cursorPointer;
     border-radius: 30px;
     z-index: 1026;
     .hamburger-bar {
@@ -330,7 +330,7 @@ img, img:hover {
 }
 
 .mode-toggle {
-    cursor: pointer;
+    cursor: $cursorPointer;
     z-index: 1026;
 
     /* Style the moon icon */
@@ -524,7 +524,7 @@ img, img:hover {
     a {
         background: rgba(0,0,0,0.05);
         color:#000;
-        cursor:pointer;
+        cursor: $cursorPointer;
         &:hover {
             background: $primary;
             text-decoration:none;
@@ -658,7 +658,7 @@ img, img:hover {
     color: transparent;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     transition: all .4s;
-    cursor: pointer;
+    cursor: $cursorPointer;
     position: relative;
     &:after {
         position: absolute;
@@ -725,7 +725,7 @@ img, img:hover {
 
 //search
 .show-search {
-    cursor:pointer;
+    cursor: $cursorPointer;
     &:hover {
         color: darken($primary,20%);
     }
