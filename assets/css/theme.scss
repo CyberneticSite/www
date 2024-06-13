@@ -16,6 +16,11 @@ $primary: $yellow;
 $dark:    $black;
 $enable-rounded: false;
 
+$cursorDefault: url('{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg'),auto;
+$cursorPointer: url('{{ site.baseurl }}/assets/images/cursors/cursorPointer.svg'),auto;
+$cursorGrab: url('{{ site.baseurl }}/assets/images/cursors/cursorGrab.svg'),auto;
+$cursorGrabbed: url('{{ site.baseurl }}/assets/images/cursors/cursorGrabbed.svg'),auto;
+$cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto;
 
 
 @import "bootstrap/functions";
@@ -109,13 +114,8 @@ $enable-rounded: false;
     --bg-color-dark: {{ page.mode-dark-bg }};
     --text-color-dark: {{ page.mode-dark-fg }};
 
-    --cursorDefault: url("{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg"),auto;
-    --cursorPointer: url("{{ site.baseurl }}/assets/images/cursors/cursorPointer.svg"),auto;
-    --cursorGrab: url("{{ site.baseurl }}/assets/images/cursors/cursorGrab.svg"),auto;
-    --cursorGrabbed: url("{{ site.baseurl }}/assets/images/cursors/cursorGrabbed.svg"),auto;
-    --cursorText: url("{{ site.baseurl }}/assets/images/cursors/cursorText.svg"),auto;
-
-    cursor: var(--cursorDefault);
+   
+    cursor: $cursorDefault
   
     --link-color: var(--link-color-light);
     --main-background-color: var(--bg-color-light);
