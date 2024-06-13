@@ -139,19 +139,19 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 
 /* Change cursor on pointer elements */
 a, button, input[type="submit"], input[type="button"] {
-  cursor: var(--cursorPointer);
+  cursor: $cursorPointer;
 }
 
 /* Change cursor on grabbable elements */
 [draggable="true"],
 [contenteditable="true"] {
-  cursor: var(--cursorGrab);
+  cursor: $cursorGrab;
 }
 
 /* Change cursor on active grabbable elements */
 [draggable="true"]:active,
 [contenteditable="true"]:active {
-  cursor: var(--cursorGrabbed);
+  cursor: $cursorGrabbed;
 }
 
 /* Change cursor on text input elements */
@@ -162,7 +162,7 @@ input[type="tel"],
 input[type="url"],
 input[type="password"],
 textarea {
-  cursor: var(--cursorText);
+  cursor: $cursorText;
 }
 // End Cursors
 
