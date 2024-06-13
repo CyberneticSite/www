@@ -12,15 +12,13 @@ systemInitiatedDark.addListener(prefersColorTest);
 
 // Function to handle changes to the system's preferred color scheme
 function prefersColorTest(systemInitiatedDark) {
-  // Get the current theme from session storage
-  let theme = sessionStorage.getItem('theme');
-
-  // If the theme is not set explicitly, set it based on system preferences
-  if (!theme) {
-    const newTheme = systemInitiatedDark.matches ? 'dark' : 'light';
-    setTheme(newTheme);
-    setThemeToggleIcon(systemInitiatedDark.matches);
-  }
+  // Set the theme based on system preferences
+  const newTheme = systemInitiatedDark.matches ? 'dark' : 'light';
+  setTheme(newTheme);
+  // Update the theme toggle icon
+  setThemeToggleIcon(systemInitiatedDark.matches);
+  // Clear the theme from session storage
+  sessionStorage.setItem('theme', '');
 }
 
 // Function to handle theme switching
@@ -31,6 +29,7 @@ function modeSwitcher() {
   // Toggle the theme based on the current theme
   const newTheme = theme === "dark" ? "light" : "dark";
   setTheme(newTheme);
+  // Update the theme toggle icon
   setThemeToggleIcon(newTheme === "dark");
 }
 
