@@ -2,6 +2,11 @@
 mode-light-bg: '#f1f1f1'
 mode-light-fg: '#242424'
 mode-light-link: '#ffc308'
+
+
+
+
+
 mode-dark-bg: '#1f004a'
 mode-dark-fg: '#ffffff'
 mode-dark-link: '#ffc308'
@@ -9,9 +14,6 @@ mode-dark-link: '#ffc308'
 
 ---
 
-$brown: #1f581e;
-$yellow: #ffc308;
-$black: #111;
 $primary: $yellow;
 $dark:    $black;
 $enable-rounded: false;
@@ -111,6 +113,8 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 
 // Root
 :root {
+    color-scheme: light dark;
+
     --link-color-light: {{ page.mode-light-link }};
     --bg-color-light: {{ page.mode-light-bg }};
     --text-color-light: {{ page.mode-light-fg }};
