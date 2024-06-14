@@ -1,19 +1,22 @@
 ---
-mode-light-bg: '#f1f1f1'
-mode-light-fg: '#242424'
-mode-light-link: '#ffc308'
-mode-light-primary: '#ffcc00'
-mode-light-dark: '#111'
-
-mode-dark-bg: '#1f004a'
-mode-dark-fg: '#ffffff'
-mode-dark-link: '#ffc308'
-mode-dark-primary: '#ffcc00'
-mode-dark-dark: '#111'
 ---
 
-$primary: {{ page.mode-light-primary }};
-$dark:    {{ page.mode-light-dark }};
+// SCSS theme variables
+
+$mode-light-bg: #f1f1f1;
+$mode-light-fg: #242424;
+$mode-light-link: #ffc308;
+$mode-light-primary: #ffcc00;
+$mode-light-dark: #111;
+
+$mode-dark-bg: #1f004a;
+$mode-dark-fg: #ffffff;
+$mode-dark-link: #ffc308;
+$mode-dark-primary: #ffcc00;
+$mode-dark-dark: #111;
+
+$primary: $mode-light-primary;
+$dark:    $mode-light-dark;
 $enable-rounded: false;
 
 $cursorDefault: url('{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg'),auto;
@@ -104,6 +107,13 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
   font-style: normal;
 }
 
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 // Dark and light modes
 
 
@@ -113,12 +123,12 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 :root {
     color-scheme: light dark;
 
-    --link-color-light: {{ page.mode-light-link }};
-    --bg-color-light: {{ page.mode-light-bg }};
-    --text-color-light: {{ page.mode-light-fg }};
-    --link-color-dark: {{ page.mode-dark-link }};
-    --bg-color-dark: {{ page.mode-dark-bg }};
-    --text-color-dark: {{ page.mode-dark-fg }};
+    --link-color-light: $mode-light-link;
+    --bg-color-light: $mode-light-bg;
+    --text-color-light: $mode-light-fg;
+    --link-color-dark: $mode-dark-link;
+    --bg-color-dark: $mode-dark-bg;
+    --text-color-dark: $mode-dark-fg;
 
    
     cursor: $cursorDefault;
