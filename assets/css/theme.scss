@@ -2,20 +2,18 @@
 mode-light-bg: '#f1f1f1'
 mode-light-fg: '#242424'
 mode-light-link: '#ffc308'
-
-
-
-
+mode-light-primary: '#ffcc00'
+mode-light-dark: '#111'
 
 mode-dark-bg: '#1f004a'
 mode-dark-fg: '#ffffff'
 mode-dark-link: '#ffc308'
-
-
+mode-dark-primary: '#ffcc00'
+mode-dark-dark: '#111'
 ---
 
-$primary: $yellow;
-$dark:    $black;
+$primary: {{ page.mode-light-primary }};
+$dark:    {{ page.mode-light-dark }};
 $enable-rounded: false;
 
 $cursorDefault: url('{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg'),auto;
@@ -158,16 +156,7 @@ html[data-theme="dark"] {
     --main-text-color: var(--text-color-dark);
 }  
 
-/* Styles for dark mode */
-/*  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --link-color: var(--link-color-dark);
-      --main-background-color: var(--bg-color-dark);
-      --main-text-color: var(--text-color-dark);
-    }
-  }
-*/  
+
 
   
 // Cursors
