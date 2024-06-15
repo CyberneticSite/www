@@ -559,6 +559,8 @@ img, img:hover {
     border-right: solid var(--csidebarborder) 1px;
     z-index: 1022;
     background: var(--csidebar);
+    filter: blur(8px);
+    -webkit-filter: blur(8px); 
 }
 .nav-icon {
     position: fixed;
