@@ -876,7 +876,7 @@ img, img:hover {
         width:50px;
         border-radius:50%;
         margin-right:10px;
-        border:2px solid darken(var(--cauthorthumb),20%);
+        border:2px solid var(--cauthorthumb);
         padding:2px;
     }
 }
@@ -889,7 +889,7 @@ img, img:hover {
     .author-thumb {
         width:70px;
         border-radius:50%;
-        border:2px solid darken(var(--cauthorthumb),20%);
+        border:2px solid var(--cauthorthumb);
         padding:2px;
     }
 }
@@ -993,7 +993,7 @@ img, img:hover {
 .show-search {
     cursor: $cursorPointer;
     &:hover {
-        color: darken(var(--csearch),20%);
+        color: var(--csearch);
     }
 }
 .bd-search {
@@ -1024,7 +1024,7 @@ img, img:hover {
         font-size:20px;
         margin-bottom:5px;
         &:hover {
-            color: darken(var(--clunrtitlehover),20%);
+            color: var(--clunrtitlehover);
         }
     }
     span.body {
