@@ -2,11 +2,11 @@
 ---
 
 // SCSS theme variables
-$yellow: #ffc340;
 $black: #111111;
+$yellow: #d7a613;
 $primary: $yellow;
 $dark:    $black;
-$enable-rounded: true;
+$enable-rounded: false;
 
 $cursorDefault: url('{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg'),auto;
 $cursorPointer: url('{{ site.baseurl }}/assets/images/cursors/cursorPointer.svg'),auto;
@@ -124,8 +124,8 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     
     --cml-sidebar: #ffffff61 ; 
     --cmd-sidebar: #5e5e5e61 ; 
-    --cml-sidebarborder: #322043 ; 
-    --cmd-sidebarborder: #8755b6 ; 
+    --cml-sidebarborder: #a366dd76 ; 
+    --cmd-sidebarborder: #8755b68b ; 
     
     --cml-icon: #292c30 ; 
     --cmd-icon: #c3d1e3 ; 
