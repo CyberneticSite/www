@@ -110,8 +110,8 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 :root {
     color-scheme: light dark;
 
-    --cml-bg: #f1f1f1;
-    --cmd-bg: #1f004a;
+    --cml-bg: #f2f4aa;
+    --cmd-bg: #060038;
     
     --cml-fg: #242424;
     --cmd-fg: #ffffff;
@@ -200,8 +200,8 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     
     --cml-footerborder: #ffffff ; 
     --cmd-footerborder: #000000 ; 
-    --cml-footer: #1e1e1e ; 
-    --cmd-footer: #111111 ; 
+    --cml-footer: #57ff78db ; 
+    --cmd-footer: #30004adb ; 
    
     cursor: $cursorDefault;
   
@@ -702,6 +702,7 @@ img, img:hover {
     }
     .card {
         border:0;
+        background: #060038;
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
