@@ -200,7 +200,7 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     
     --cml-footerborder: #ffffff ; 
     --cmd-footerborder: #000000 ; 
-    --cml-footer: #aaaaaa ; 
+    --cml-footer: #1e1e1e ; 
     --cmd-footer: #111111 ; 
    
     cursor: $cursorDefault;
@@ -1054,6 +1054,9 @@ body.active-side {
 }
 //footer
 .footer {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
     margin-top:120px;
     padding:30px;
     border-top:1px solid var(--cfooterborder);
