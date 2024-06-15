@@ -2,8 +2,11 @@
 ---
 
 // SCSS theme variables
-
-$enable-rounded: false;
+$yellow: #ffc340;
+$black: #111111;
+$primary: $yellow;
+$dark:    $black;
+$enable-rounded: true;
 
 $cursorDefault: url('{{ site.baseurl }}/assets/images/cursors/cursorDefault.svg'),auto;
 $cursorPointer: url('{{ site.baseurl }}/assets/images/cursors/cursorPointer.svg'),auto;
