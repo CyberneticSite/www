@@ -15,7 +15,7 @@ $mode-dark-link: #ffc308;
 $mode-dark-primary: #ffcc00;
 $mode-dark-dark: #111;
 
-$primary: $mode-light-primary;
+$primary: #{$mode-light-primary};
 $dark:    $mode-light-dark;
 $enable-rounded: false;
 
@@ -123,12 +123,12 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 :root {
     color-scheme: light dark;
 
-    --link-color-light: $mode-light-link;
-    --bg-color-light: $mode-light-bg;
-    --text-color-light: $mode-light-fg;
-    --link-color-dark: $mode-dark-link;
-    --bg-color-dark: $mode-dark-bg;
-    --text-color-dark: $mode-dark-fg;
+    --link-color-light: #{$mode-light-link};
+    --bg-color-light: #{$mode-light-bg};
+    --text-color-light: #{$mode-light-fg};
+    --link-color-dark: #{$mode-dark-link};
+    --bg-color-dark: #{$mode-dark-bg};
+    --text-color-dark: #{$mode-dark-fg};
 
    
     cursor: $cursorDefault;
