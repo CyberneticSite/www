@@ -20,7 +20,11 @@ Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find
 
 <a href="{{ site.baseurl }}/team">Cyber Team <span class="badge badge-primary">*team</span></a>
 
-### Fancy a chat?
 
+### Fancy a chat?
+226234909
+<a href="https://twitter.com/messages/compose?recipient_id=1445866834096386048&amp;text=(Via cybernetic.site/about)%0A%0AYour message here" class="btn btn-primary ms-lg-3 primary-shadow">                <i class="fab fa-x-twitter"></i>DM us on X!</a>
+
+### Like to leave us a message?
 <a href="{{ site.baseurl }}/contact" class="btn btn-dark"> Go to the contact form! &rarr;</a>
 

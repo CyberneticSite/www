@@ -2,8 +2,8 @@
 name: "Cybernetic Site"
 title: "Enter the Cybernetic Site"
 description: "Electronics, Space, Hardware, Code, AI, Reviews and Cyber Wares!"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/cyber-logo-dark.svg'
+favicon: 'assets/images/cyber-icon.svg'
 baseurl: /
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
@@ -17,7 +17,7 @@ authors:
   vulcan:
     name: Vulcan Ignis
     display_name: Vulcan
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/cyber-icon.svg'
     email: vulcan@cybernetic.site
     web: https://cybernetic.site
     twitter: https://x.com/vulcanignis
@@ -25,7 +25,7 @@ authors:
   cyberteam:
     name: Cybernetic Team
     display_name: CT    
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/cyber-icon.svg'
     email: info@cybernetic.site
     web: https://cybernetic.site
     twitter: https://x.com/cyberneticware
