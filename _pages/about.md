@@ -22,7 +22,6 @@ Welcome Cyberspace travelers, this is the **Cybernetic Site**. Here you can find
 
 
 ### Fancy a chat?
-226234909
 <a href="https://twitter.com/messages/compose?recipient_id=1445866834096386048&amp;text=(Via cybernetic.site/about)%0A%0AYour message here" class="btn btn-primary ms-lg-3 primary-shadow">                <i class="fab fa-x-twitter"></i>DM us on X!</a>
 
 ### Like to leave us a message?
