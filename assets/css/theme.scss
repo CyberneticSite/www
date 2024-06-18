@@ -592,11 +592,14 @@ img, img:hover {
     top: 0px;
     width: 80px;
     height: 100%;
-    border-right: solid var(--csidebarborder) 1px;
+    //border-right: solid var(--csidebarborder) 1px;
     z-index: 1022;
-    background: var(--csidebar);
-    filter: blur(3px);
-    -webkit-filter: blur(3px); 
+    // background: var(--csidebar);
+    background: rgba(0,0,0,0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(0,0,0,0.15);
+    
 }
 .nav-icon {
     position: fixed;
