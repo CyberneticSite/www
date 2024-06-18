@@ -595,10 +595,10 @@ img, img:hover {
     //border-right: solid var(--csidebarborder) 1px;
     z-index: 1022;
     // background: var(--csidebar);
-    background: rgba(0,0,0,0.3);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border-right: 1px solid rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.05);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border-right: 1px solid rgba(0,0,0,0.025);
     
 }
 .nav-icon {
