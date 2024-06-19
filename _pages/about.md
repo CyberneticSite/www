@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Electronics, Code, AI, and Cyber Ware
+title: EDA, Space, HW, Code, AI, Reviews & Wares!
 permalink: /about
 image: /assets/images/pexels-johannes-plenio-1105379.jpg
 imageshadow: true
