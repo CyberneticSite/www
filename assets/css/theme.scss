@@ -553,7 +553,7 @@ h1,h2,h3,h4,h5,h6 {
 blockquote {
     font-family: "Workbench", sans-serif;
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
     position:relative;
     border-left:1px solid var(--cblockquote);
     margin-left:30px;
@@ -967,7 +967,7 @@ img, img:hover {
     margin-top:50px;
     margin-bottom:50px;
     .author-description {
-        font-size:16px;
+        font-size:12px;
     }
     .author-thumb {
         width:70px;
@@ -977,17 +977,17 @@ img, img:hover {
     }
 }
 .article-post {    
-    font-size:18px;
+    font-size:14px;
     p {
         margin-top:30px;
         margin-bottom:30px;
     }
     code {
-        font-size: 15px;
+        font-size: 14px;
         color: var(--ccode);
     }
     code[class*="language-"], pre[class*="language-"] {
-        font-size:15px;
+        font-size:14px;
         margin-bottom:30px;
         background: var(--ccodelang);
         color:inherit;
@@ -1104,7 +1104,7 @@ img, img:hover {
         font-weight:700;
         line-height:1.2;
         display:block;
-        font-size:20px;
+        font-size:14px;
         margin-bottom:5px;
         &:hover {
             color: var(--clunrtitlehover);
@@ -1190,7 +1190,7 @@ body.active-side {
     }
     .newsletter {
         span.h4 {
-            font-size: 20px;
+            font-size: 14px;
         }
         .mc-field-group input[type="email"] {
             padding: 4px 10px;
@@ -1254,10 +1254,10 @@ body.active-side {
     }
     blockquote {
         margin-left:15px;
-        font-size:18px;
+        font-size:14px;
     }
     .article-post {
-        font-size:15px;
+        font-size:14px;
     }
     .wrap-search {
         .fa-search {
