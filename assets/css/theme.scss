@@ -506,7 +506,7 @@ textarea {
 
 // general
 body, input, button, select, optgroup, textarea {   
-    font-family: "Nunito", sans-serif;
+    font-family: "Sixtyfour", sans-serif;
 }
 
 body {
@@ -802,13 +802,13 @@ img, img:hover {
     }
     .card-text {
         font-weight:400;
-        font-size:16px;
+        font-size:12px;
         line-height:1.8;
         margin-top:15px;
     }
     .card-footer {
         background-color: var(--ccard-footer);
-       font-size:14px;
+       font-size:12px;
         border-top:0;
         padding: 1rem 1.25rem;
         a {
