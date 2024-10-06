@@ -770,7 +770,7 @@ img, img:hover {
     }
     .card {
         border:0;
-        background: #060038;
+        background-color: var(--ccard-bg);
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
