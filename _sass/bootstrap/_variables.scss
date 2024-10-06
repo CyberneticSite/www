@@ -278,7 +278,7 @@ $embed-responsive-aspect-ratios: join(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      font-family: "Sixtyfour", sans-serif !default;
+$font-family-sans-serif:      "Sixtyfour", sans-serif !default;
 $font-family-monospace:       "Workbench", sans-serif !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
