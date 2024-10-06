@@ -161,7 +161,7 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     --cml-footer: rgba(240, 241, 224, 0.9);
   
     // Dark mode colors
-    --cmd-bg: rgba(32, 15, 97, 0.9);
+    --cmd-bg: rgba(20, 9, 67, 0.9);
     --cmd-fg: #e6e6fa;
     --cmd-overlay-prime: rgba(69, 39, 160, 0.5);
     --cmd-overlay-duo: rgba(255, 255, 255, 0.1);
@@ -220,8 +220,8 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 
   // The dark mode variables you provided
   --cmd-card-title: #b19cd9;
-  --cmd-card-bg: rgba(48, 27, 140, 0.8);
-  --cmd-card-footer: rgba(28, 13, 77, 0.9);
+  --cmd-card-bg: rgba(29, 13, 98, 0.8);
+  --cmd-card-footer: rgba(28, 13, 77, 0.663);
  
     cursor: $cursorDefault;
   
