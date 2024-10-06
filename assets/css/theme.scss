@@ -105,123 +105,110 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
 
 // Dark and light modes
 /* Styles for light mode */
-
-// Root
 :root {
     color-scheme: light dark;
 
-
-    // New Styles
+    // Light mode colors
     --cml-bg: #feffed;
-    --cml-fg: #242424;
-    --cml-overlay-prime: #501f84b3;
-    --cml-overlay-duo: #00000000;
-    --cml-night: #000000b9;
-    --cml-day: #ffffffb9;
-    --cml-prime: #39007ed8;
-    --cml-duo: #ffc001f1;
+    --cml-fg: #333333;
+    --cml-overlay-prime: #d7a61380;
+    --cml-overlay-duo: #00000020;
+    --cml-night: #00000080;
+    --cml-day: #ffffff80;
+    --cml-prime: #d7a613;
+    --cml-duo: #8c7b31;
     --cml-tri: #6e6e6e;
-    --cml-quad: #3b3b3b;
-    --cml-layer-prime: #fff8adc2;
-    --cml-layer-duo: #57ff78db;
-    --cml-borders: #a366dd76;
+    --cml-quad: #4a4a4a;
+    --cml-layer-prime: #f0f1e0;
+    --cml-layer-duo: #e6e7d6;
+    --cml-borders: #d7a61340;
     --cml-shadows: #546e7a26;
 
-    // End New Styles
+    --cml-link: #8c7b31;
+    --cml-blockquote: #555555;
+    --cml-sidebar: #f5f6e5;
+    --cml-sidebarborder: #d7a61340;
+    --cml-icon: #4a4a4a;
+    --cml-toggle: #333333;
+    --cml-toggled: #d7a613;
+    --cml-blackover: #00000020;
+    --cml-blackedover: #d7a61380;
+    --cml-menu: #e6e7d6;
+    --cml-menutext: #333333;
+    --cml-blog: #4a4a4a;
+    --cml-blogtitle: #d7a613;
+    --cml-pagination: #d7a61380;
+    --cml-paginationtext: #333333;
+    --cml-paginationhover: #8c7b31;
+    --cml-newsletter: #f0f1e0;
+    --cml-newslettertext: #333333;
+    --cml-imageshaddow: #546e7a26;
+    --cml-authorthumb: #d7a613;
+    --cml-code: #6e6e6e;
+    --cml-codelang: #ffffff;
+    --cml-codetoolshadow: #0000001a;
+    --cml-spoilershadow: #00000066;
+    --cml-spoilerafterbg: #e6e7d6;
+    --cml-spoilerafter: #333333;
+    --cml-share: #4a4a4a;
+    --cml-search: #d7a613;
+    --cml-modal: #0000004d;
+    --cml-lunrtitle: #333333;
+    --cml-lunrtitlehover: #d7a613;
+    --cml-lunrtitlespan: #6e6e6e;
+    --cml-footerborder: #d7a61340;
+    --cml-footer: #f0f1e0;
 
-    --cml-bg: #feffed;
+    // Dark mode colors
     --cmd-bg: #200f61;
-    
-    --cml-fg: #242424;
-    --cmd-fg: #ffffff;
-    
-    --cml-link: #ffc308;
-    --cmd-link: #ffc308;
-    
-    --cml-blockquote: #000000 ; 
-    --cmd-blockquote: #ffffff ; 
-    
-    --cml-sidebar: #ffffff61 ; 
-    --cmd-sidebar: #5e5e5e61 ; 
-    --cml-sidebarborder: #a366dd76 ; 
-    --cmd-sidebarborder: #8755b68b ; 
-    
-    --cml-icon: #292c30 ; 
-    --cmd-icon: #c3d1e3 ; 
-    
-    --cml-toggle: #000000 ; 
-    --cmd-toggle: #ffffff ; 
-    --cml-toggled: #000000 ; 
-    --cmd-toggled: #ffffff ; 
-    
-    --cml-blackover: #080b1000 ; 
-    --cmd-blackover: #5efff000 ; 
-    --cml-blackedover: #501f84b3 ; 
-    --cmd-blackedover: #1f8458b3 ; 
-    
-    --cml-menu: #57ff78db ; 
-    --cmd-menu: #30004adb ; 
-    --cml-menutext: #000000 ; 
-    --cmd-menutext: #ffffff ; 
-    
-    --cml-blog: #333333 ; 
-    --cmd-blog: #999999 ; 
-    --cml-blogtitle: #ffaa00 ; 
-    --cmd-blogtitle: #ff0000 ; 
-    
-    --cml-pagination: #836c3da5 ; 
-    --cmd-pagination: #2c32737e ; 
-    --cml-paginationtext: #000000 ; 
-    --cmd-paginationtext: #ffffff ; 
-    --cml-paginationhover: #ffaa00 ; 
-    --cmd-paginationhover: #ff0000 ; 
-    
-    --cml-newsletter: #ffaa00 ; 
-    --cmd-newsletter: #ff0000 ; 
-    --cml-newslettertext: #222222 ; 
-    --cmd-newslettertext: #aaaaaa ; 
-    
-    --cml-imageshaddow: #546e7a26 ; 
-    --cmd-imageshaddow: #82a2b026 ; 
-    
-    --cml-authorthumb: #ffaa00 ; 
-    --cmd-authorthumb: #ff0000 ; 
-    
-    --cml-code: #94918d ; 
-    --cmd-code: #777777 ; 
-    --cml-codelang: #ffffff ; 
-    --cmd-codelang: #000000 ; 
-    --cml-codetoolshadow: #0000001a ; 
-    --cmd-codetoolshadow: #ffffff1a ; 
-    
-    --cml-spoilershadow: #00000066 ; 
-    --cmd-spoilershadow: #ffffff66 ; 
-    --cml-spoilerafterbg: #222222 ; 
-    --cmd-spoilerafterbg: #aaaaaa ; 
-    --cml-spoilerafter: #ffffff ; 
-    --cmd-spoilerafter: #000000 ; 
-    
-    --cml-share: #000000 ; 
-    --cmd-share: #ffffff ; 
-    
-    --cml-search: #ffaa00 ; 
-    --cmd-search: #ff0000 ; 
-    
-    --cml-modal: ##0000004d ; 
-    --cmd-modal: #ffffff4d ; 
-    
-    --cml-lunrtitle: #000000 ; 
-    --cmd-lunrtitle: #ffffff ; 
-    --cml-lunrtitlehover: #ffaa00 ; 
-    --cmd-lunrtitlehover: #ff0000 ; 
-    --cml-lunrtitlespan: #222222 ; 
-    --cmd-lunrtitlespan: #aaaaaa ; 
-    
-    --cml-footerborder: #ffffff ; 
-    --cmd-footerborder: #000000 ; 
-    --cml-footer: #57ff78db ; 
-    --cmd-footer: #30004adb ; 
+    --cmd-fg: #e6e6fa;
+    --cmd-overlay-prime: #4527a080;
+    --cmd-overlay-duo: #ffffff20;
+    --cmd-night: #00000080;
+    --cmd-day: #ffffff80;
+    --cmd-prime: #7b68ee;
+    --cmd-duo: #9370db;
+    --cmd-tri: #b19cd9;
+    --cmd-quad: #d8bfd8;
+    --cmd-layer-prime: #301b8c;
+    --cmd-layer-duo: #3c2299;
+    --cmd-borders: #7b68ee40;
+    --cmd-shadows: #00000040;
 
+    --cmd-link: #9370db;
+    --cmd-blockquote: #d8bfd8;
+    --cmd-sidebar: #301b8c;
+    --cmd-sidebarborder: #7b68ee40;
+    --cmd-icon: #e6e6fa;
+    --cmd-toggle: #e6e6fa;
+    --cmd-toggled: #7b68ee;
+    --cmd-blackover: #ffffff20;
+    --cmd-blackedover: #4527a080;
+    --cmd-menu: #3c2299;
+    --cmd-menutext: #e6e6fa;
+    --cmd-blog: #b19cd9;
+    --cmd-blogtitle: #7b68ee;
+    --cmd-pagination: #4527a080;
+    --cmd-paginationtext: #e6e6fa;
+    --cmd-paginationhover: #9370db;
+    --cmd-newsletter: #301b8c;
+    --cmd-newslettertext: #e6e6fa;
+    --cmd-imageshaddow: #00000040;
+    --cmd-authorthumb: #7b68ee;
+    --cmd-code: #b19cd9;
+    --cmd-codelang: #200f61;
+    --cmd-codetoolshadow: #ffffff1a;
+    --cmd-spoilershadow: #ffffff66;
+    --cmd-spoilerafterbg: #3c2299;
+    --cmd-spoilerafter: #e6e6fa;
+    --cmd-share: #e6e6fa;
+    --cmd-search: #7b68ee;
+    --cmd-modal: #ffffff4d;
+    --cmd-lunrtitle: #e6e6fa;
+    --cmd-lunrtitlehover: #7b68ee;
+    --cmd-lunrtitlespan: #b19cd9;
+    --cmd-footerborder: #7b68ee40;
+    --cmd-footer: #301b8c;
  
     cursor: $cursorDefault;
   
