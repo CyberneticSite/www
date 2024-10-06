@@ -102,6 +102,12 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
   font-style: normal;
 }
 
+.nunito-sans {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 
 // Dark and light modes
 /* Styles for light mode */
@@ -500,7 +506,7 @@ textarea {
 
 // general
 body, input, button, select, optgroup, textarea {   
-    font-family: "PT Sans", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -517,11 +523,11 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Workbench", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight:400;
 }
 .site-content {
-    font-family: "Sixtyfour", sans-serif;
+    font-family: "Nunito", sans-serif;
     padding-top:50px;
 }
 
@@ -780,7 +786,7 @@ img, img:hover {
     .card-title {
         color: var(--ccardtitle);
         font-family: "Rubik Glitch", system-ui;
-        font-weight:700;
+        font-weight:500;
         font-size:22px;
         line-height:1.4;
         a { 
