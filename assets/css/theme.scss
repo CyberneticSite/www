@@ -111,104 +111,117 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     // Light mode colors
     --cml-bg: #feffed;
     --cml-fg: #333333;
-    --cml-overlay-prime: #d7a61380;
-    --cml-overlay-duo: #00000020;
-    --cml-night: #00000080;
-    --cml-day: #ffffff80;
+    --cml-overlay-prime: rgba(215, 166, 19, 0.5);
+    --cml-overlay-duo: rgba(0, 0, 0, 0.12);
+    --cml-night: rgba(0, 0, 0, 0.5);
+    --cml-day: rgba(255, 255, 255, 0.5);
     --cml-prime: #d7a613;
     --cml-duo: #8c7b31;
     --cml-tri: #6e6e6e;
     --cml-quad: #4a4a4a;
-    --cml-layer-prime: #f0f1e0;
-    --cml-layer-duo: #e6e7d6;
-    --cml-borders: #d7a61340;
-    --cml-shadows: #546e7a26;
-
+    --cml-layer-prime: rgba(240, 241, 224, 0.8);
+    --cml-layer-duo: rgba(230, 231, 214, 0.8);
+    --cml-borders: rgba(215, 166, 19, 0.25);
+    --cml-shadows: rgba(84, 110, 122, 0.15);
+  
     --cml-link: #8c7b31;
+    --cml-link-hover: #d7a613;
     --cml-blockquote: #555555;
-    --cml-sidebar: #f5f6e5;
-    --cml-sidebarborder: #d7a61340;
+    --cml-sidebar: rgba(245, 246, 229, 0.9);
+    --cml-sidebarborder: rgba(215, 166, 19, 0.25);
     --cml-icon: #4a4a4a;
     --cml-toggle: #333333;
     --cml-toggled: #d7a613;
-    --cml-blackover: #00000020;
-    --cml-blackedover: #d7a61380;
-    --cml-menu: #e6e7d6;
+    --cml-blackover: rgba(0, 0, 0, 0.12);
+    --cml-blackedover: rgba(215, 166, 19, 0.5);
+    --cml-menu: rgba(230, 231, 214, 0.9);
     --cml-menutext: #333333;
     --cml-blog: #4a4a4a;
     --cml-blogtitle: #d7a613;
-    --cml-pagination: #d7a61380;
+    --cml-pagination: rgba(215, 166, 19, 0.5);
     --cml-paginationtext: #333333;
     --cml-paginationhover: #8c7b31;
-    --cml-newsletter: #f0f1e0;
+    --cml-newsletter: rgba(240, 241, 224, 0.9);
     --cml-newslettertext: #333333;
-    --cml-imageshaddow: #546e7a26;
+    --cml-imageshaddow: rgba(84, 110, 122, 0.15);
     --cml-authorthumb: #d7a613;
     --cml-code: #6e6e6e;
     --cml-codelang: #ffffff;
-    --cml-codetoolshadow: #0000001a;
-    --cml-spoilershadow: #00000066;
-    --cml-spoilerafterbg: #e6e7d6;
+    --cml-codetoolshadow: rgba(0, 0, 0, 0.1);
+    --cml-spoilershadow: rgba(0, 0, 0, 0.4);
+    --cml-spoilerafterbg: rgba(230, 231, 214, 0.9);
     --cml-spoilerafter: #333333;
     --cml-share: #4a4a4a;
     --cml-search: #d7a613;
-    --cml-modal: #0000004d;
+    --cml-modal: rgba(0, 0, 0, 0.3);
     --cml-lunrtitle: #333333;
     --cml-lunrtitlehover: #d7a613;
     --cml-lunrtitlespan: #6e6e6e;
-    --cml-footerborder: #d7a61340;
-    --cml-footer: #f0f1e0;
-
+    --cml-footerborder: rgba(215, 166, 19, 0.25);
+    --cml-footer: rgba(240, 241, 224, 0.9);
+  
     // Dark mode colors
-    --cmd-bg: #200f61;
+    --cmd-bg: rgba(32, 15, 97, 0.9);
     --cmd-fg: #e6e6fa;
-    --cmd-overlay-prime: #4527a080;
-    --cmd-overlay-duo: #ffffff20;
-    --cmd-night: #00000080;
-    --cmd-day: #ffffff80;
-    --cmd-prime: #7b68ee;
-    --cmd-duo: #9370db;
-    --cmd-tri: #b19cd9;
-    --cmd-quad: #d8bfd8;
-    --cmd-layer-prime: #301b8c;
-    --cmd-layer-duo: #3c2299;
-    --cmd-borders: #7b68ee40;
-    --cmd-shadows: #00000040;
-
-    --cmd-link: #9370db;
+    --cmd-overlay-prime: rgba(69, 39, 160, 0.5);
+    --cmd-overlay-duo: rgba(255, 255, 255, 0.1);
+    --cmd-night: rgba(0, 0, 0, 0.5);
+    --cmd-day: rgba(255, 255, 255, 0.5);
+    --cmd-prime: #9370db;
+    --cmd-duo: #b19cd9;
+    --cmd-tri: #d8bfd8;
+    --cmd-quad: #e6e6fa;
+    --cmd-layer-prime: rgba(48, 27, 140, 0.7);
+    --cmd-layer-duo: rgba(60, 34, 153, 0.7);
+    --cmd-borders: rgba(123, 104, 238, 0.4);
+    --cmd-shadows: rgba(0, 0, 0, 0.3);
+  
+    --cmd-link: #b19cd9;
+    --cmd-link-hover: #9370db;
     --cmd-blockquote: #d8bfd8;
-    --cmd-sidebar: #301b8c;
-    --cmd-sidebarborder: #7b68ee40;
+    --cmd-sidebar: rgba(48, 27, 140, 0.8);
+    --cmd-sidebarborder: rgba(123, 104, 238, 0.4);
     --cmd-icon: #e6e6fa;
     --cmd-toggle: #e6e6fa;
-    --cmd-toggled: #7b68ee;
-    --cmd-blackover: #ffffff20;
-    --cmd-blackedover: #4527a080;
-    --cmd-menu: #3c2299;
+    --cmd-toggled: #9370db;
+    --cmd-blackover: rgba(255, 255, 255, 0.1);
+    --cmd-blackedover: rgba(69, 39, 160, 0.5);
+    --cmd-menu: rgba(60, 34, 153, 0.8);
     --cmd-menutext: #e6e6fa;
     --cmd-blog: #b19cd9;
-    --cmd-blogtitle: #7b68ee;
-    --cmd-pagination: #4527a080;
+    --cmd-blogtitle: #9370db;
+    --cmd-pagination: rgba(69, 39, 160, 0.5);
     --cmd-paginationtext: #e6e6fa;
-    --cmd-paginationhover: #9370db;
-    --cmd-newsletter: #301b8c;
+    --cmd-paginationhover: #b19cd9;
+    --cmd-newsletter: rgba(48, 27, 140, 0.8);
     --cmd-newslettertext: #e6e6fa;
-    --cmd-imageshaddow: #00000040;
-    --cmd-authorthumb: #7b68ee;
+    --cmd-imageshaddow: rgba(0, 0, 0, 0.3);
+    --cmd-authorthumb: #9370db;
     --cmd-code: #b19cd9;
     --cmd-codelang: #200f61;
-    --cmd-codetoolshadow: #ffffff1a;
-    --cmd-spoilershadow: #ffffff66;
-    --cmd-spoilerafterbg: #3c2299;
+    --cmd-codetoolshadow: rgba(255, 255, 255, 0.1);
+    --cmd-spoilershadow: rgba(255, 255, 255, 0.4);
+    --cmd-spoilerafterbg: rgba(60, 34, 153, 0.8);
     --cmd-spoilerafter: #e6e6fa;
     --cmd-share: #e6e6fa;
-    --cmd-search: #7b68ee;
-    --cmd-modal: #ffffff4d;
+    --cmd-search: #9370db;
+    --cmd-modal: rgba(255, 255, 255, 0.3);
     --cmd-lunrtitle: #e6e6fa;
-    --cmd-lunrtitlehover: #7b68ee;
+    --cmd-lunrtitlehover: #9370db;
     --cmd-lunrtitlespan: #b19cd9;
-    --cmd-footerborder: #7b68ee40;
-    --cmd-footer: #301b8c;
+    --cmd-footerborder: rgba(123, 104, 238, 0.4);
+    --cmd-footer: rgba(48, 27, 140, 0.8);
+  
+  // New light mode variables
+  --cml-card-title: #8c7b31; // A darker shade of the primary color for titles
+  --cml-card-bg: rgba(254, 255, 237, 0.8); // Slightly translucent version of the main background
+  --cml-card-footer: rgba(230, 231, 214, 0.9); // Slightly darker and more opaque than the card background
+
+
+  // The dark mode variables you provided
+  --cmd-card-title: #b19cd9;
+  --cmd-card-bg: rgba(48, 27, 140, 0.8);
+  --cmd-card-footer: rgba(28, 13, 77, 0.9);
  
     cursor: $cursorDefault;
   
@@ -248,6 +261,10 @@ $cursorText: url('{{ site.baseurl }}/assets/images/cursors/cursorText.svg'),auto
     --clunrtitlespan: var(--cml-lunrtitlespan);
     --cfooterborder: var(--cml-footerborder);
     --cfooter: var(--cml-footer);
+
+    --ccardtitle: var(--cml-card-title);
+    --ccard-bg: var(--cml-card-bg);
+    --ccard-footer: var(--cml-card-footer);   
 
     body {
         background-image: url('{{ site.baseurl }}/assets/images/bg-light.svg')
@@ -296,6 +313,10 @@ html[data-theme="light"] {
     --cfooterborder: var(--cml-footerborder);
     --cfooter: var(--cml-footer);
 
+    --ccardtitle: var(--cml-card-title);
+    --ccard-bg: var(--cml-card-bg);
+    --ccard-footer: var(--cml-card-footer);   
+
     body {
         background-image: url('{{ site.baseurl }}/assets/images/bg-light.svg')
     }
@@ -339,6 +360,10 @@ html[data-theme="light"] {
     --clunrtitlespan: var(--cml-lunrtitlespan);
     --cfooterborder: var(--cml-footerborder);
     --cfooter: var(--cml-footer);
+
+    --ccardtitle: var(--cml-card-title);
+    --ccard-bg: var(--cml-card-bg);
+    --ccard-footer: var(--cml-card-footer);   
 
     body {
         background-image: url('{{ site.baseurl }}/assets/images/bg-light.svg')
@@ -384,6 +409,10 @@ html[data-theme="dark"] {
     --cfooterborder: var(--cmd-footerborder);
     --cfooter: var(--cmd-footer);
 
+    --ccardtitle: var(--cmd-card-title);
+    --ccard-bg: var(--cmd-card-bg);
+    --ccard-footer: var(--cmd-card-footer);   
+
     body {
         background-image: url('{{ site.baseurl }}/assets/images/bg-dark.svg')
     }
@@ -426,6 +455,11 @@ html[data-theme="dark"] {
     --clunrtitlespan: var(--cmd-lunrtitlespan);
     --cfooterborder: var(--cmd-footerborder);
     --cfooter: var(--cmd-footer);
+
+    --ccardtitle: var(--cmd-card-title);
+    --ccard-bg: var(--cmd-card-bg);
+    --ccard-footer: var(--cmd-card-footer);   
+
 
     body {
         background-image: url('{{ site.baseurl }}/assets/images/bg-dark.svg')
@@ -744,6 +778,7 @@ img, img:hover {
         }
     }
     .card-title {
+        color: var(--ccardtitle);
         font-weight:700;
         font-size:22px;
         line-height:1.4;
@@ -765,6 +800,7 @@ img, img:hover {
         margin-top:15px;
     }
     .card-footer {
+        background-color: var(--ccard-footer);
        font-size:14px;
         border-top:0;
         padding: 1rem 1.25rem;
@@ -795,6 +831,7 @@ img, img:hover {
         font-size: 1em;
         padding:0;
         .card-title {
+            color: var(--ccardtitle);
             font-size:28px;
         }
         .img-thumb {
@@ -816,6 +853,7 @@ img, img:hover {
             object-position:top;
         }
         .card-title {
+            color: var(--ccardtitle);
             font-size:18px;
             line-height:1.5;
         }      
