@@ -517,7 +517,7 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Rubik Glitch", sans-serif;
+    font-family: "Workbench", sans-serif;
     font-weight:400;
 }
 .site-content {
@@ -779,6 +779,7 @@ img, img:hover {
     }
     .card-title {
         color: var(--ccardtitle);
+        font-family: "Rubik Glitch", system-ui;
         font-weight:700;
         font-size:22px;
         line-height:1.4;
