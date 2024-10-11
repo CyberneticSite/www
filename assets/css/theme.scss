@@ -926,6 +926,10 @@ img, img:hover {
     }
 }
 
+.text-small {
+    font-size:11px;
+}
+
 // blog 
 .article-post, .entry-header, .comments, .rating, .authorbox {
     max-width: 800px;
@@ -977,7 +981,7 @@ img, img:hover {
     }
 }
 .article-post {    
-    font-size:14px;
+    font-size:11px;
     p {
         margin-top:30px;
         margin-bottom:30px;
@@ -1254,11 +1258,16 @@ body.active-side {
     }
     blockquote {
         margin-left:15px;
-        font-size:14px;
+        font-size:11px;
     }
     .article-post {
-        font-size:14px;
+        font-size:11px;
     }
+
+    .text-small {
+        font-size:11px;
+    }
+
     .wrap-search {
         .fa-search {
             display:none;
