@@ -4,8 +4,9 @@ title: The Space Shuttle
 author: vulcan
 categories: Space
 tags: nasa spaceshuttle
-image: /assets/images/pexels-eleanore-stohner-12888837.jpg
+image: /assets/images/pexels-eleanore-stohner-12888837-1.jpg
 image_alt: Photo by Eleanore Stohner on Pexels
+image_credit: <a href="https://www.pexels.com/photo/a-space-shuttle-in-a-museum-12888837/">Photo by Eleanore Stohner on Pexels</a>
 toc: false
 beforetoc: ""
 rating: 0
