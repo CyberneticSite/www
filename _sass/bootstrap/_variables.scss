@@ -283,70 +283,69 @@ $font-family-monospace:       "Workbench", sans-serif !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:                $font-size-base * 1.25 !default;
-$font-size-sm:                $font-size-base * .875 !default;
+$font-size-base:              0.9rem !default; // Reduced from 1rem
+$font-size-lg:                $font-size-base * 1.2 !default; // Reduced from 1.25
+$font-size-sm:                $font-size-base * .8 !default; // Reduced from .875
 
 $font-weight-lighter:         lighter !default;
-$font-weight-light:           300 !default;
-$font-weight-normal:          400 !default;
-$font-weight-bold:            700 !default;
+$font-weight-light:           200 !default; // Reduced from 300
+$font-weight-normal:          300 !default; // Reduced from 400
+$font-weight-bold:            400 !default; // Reduced from 700
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
-$line-height-base:            1.5 !default;
+$line-height-base:            1.4 !default; // Slightly reduced from 1.5
 
-$h1-font-size:                $font-size-base * 1.75 !default;
-$h2-font-size:                $font-size-base * 1.5 !default;
-$h3-font-size:                $font-size-base * 1.25 !default;
-$h4-font-size:                $font-size-base * 1 !default;
-$h5-font-size:                $font-size-base * .75 !default;
-$h6-font-size:                $font-size-base * .5 !default;
+$h1-font-size:                $font-size-base * 1.6 !default; // Reduced from 1.75
+$h2-font-size:                $font-size-base * 1.4 !default; // Reduced from 1.5
+$h3-font-size:                $font-size-base * 1.2 !default; // Reduced from 1.25
+$h4-font-size:                $font-size-base * 1 !default; // Unchanged
+$h5-font-size:                $font-size-base * .7 !default; // Reduced from .75
+$h6-font-size:                $font-size-base * .45 !default; // Reduced from .5
 
 $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        null !default;
-$headings-font-weight:        500 !default;
-$headings-line-height:        1.2 !default;
+$headings-font-weight:        400 !default; // Reduced from 500
+$headings-line-height:        1.1 !default; // Slightly reduced from 1.2
 $headings-color:              null !default;
 
-$display1-size:               6rem !default;
-$display2-size:               5.5rem !default;
-$display3-size:               4.5rem !default;
-$display4-size:               3.5rem !default;
+$display1-size:               5rem !default; // Reduced from 6rem
+$display2-size:               4.5rem !default; // Reduced from 5.5rem
+$display3-size:               3.5rem !default; // Reduced from 4.5rem
+$display4-size:               2.5rem !default; // Reduced from 3.5rem
 
-$display1-weight:             300 !default;
-$display2-weight:             300 !default;
-$display3-weight:             300 !default;
-$display4-weight:             300 !default;
+$display1-weight:             200 !default; // Reduced from 300
+$display2-weight:             200 !default; // Reduced from 300
+$display3-weight:             200 !default; // Reduced from 300
+$display4-weight:             200 !default; // Reduced from 300
 $display-line-height:         $headings-line-height !default;
 
-$lead-font-size:              $font-size-base * 1.25 !default;
-$lead-font-weight:            300 !default;
+$lead-font-size:              $font-size-base * 1.15 !default; // Reduced from 1.25
+$lead-font-weight:            200 !default; // Reduced from 300
 
-$small-font-size:             80% !default;
+$small-font-size:             75% !default; // Reduced from 80%
 
 $text-muted:                  $gray-600 !default;
 
 $blockquote-small-color:      $gray-600 !default;
 $blockquote-small-font-size:  $small-font-size !default;
-$blockquote-font-size:        $font-size-base * 1.25 !default;
+$blockquote-font-size:        $font-size-base * 1.15 !default; // Reduced from 1.25
 
 $hr-border-color:             rgba($black, .1) !default;
 $hr-border-width:             $border-width !default;
 
-$mark-padding:                .2em !default;
+$mark-padding:                .15em !default; // Slightly reduced from .2em
 
 $dt-font-weight:              $font-weight-bold !default;
 
-$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25) !default;
+$kbd-box-shadow:              inset 0 -.08rem 0 rgba($black, .25) !default; // Slightly reduced from -.1rem
 $nested-kbd-font-weight:      $font-weight-bold !default;
 
-$list-inline-padding:         .5rem !default;
+$list-inline-padding:         .4rem !default; // Reduced from .5rem
 
 $mark-bg:                     #fcf8e3 !default;
 
 $hr-margin-y:                 $spacer !default;
-
 
 // Tables
 //
