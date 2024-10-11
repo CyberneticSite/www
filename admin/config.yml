@@ -23,6 +23,7 @@ collections:
       - { label: 'Flavours', name: 'tags', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', choose_url: true, default: "assets/images/logo.png" }
       - { label: 'Image Alt', name: 'image_alt', widget: 'string' }
+      - { label: 'Image Credit', name: 'image_credit', widget: 'string' }
       - { label: 'TOC', name: 'toc', widget: 'boolean', default: false }
       - { label: 'TOC Preface', name: 'beforetoc', widget: 'text', required: false }
       - { label: 'Rating', name: 'rating', widget: 'number', default: 0, value_type: "int", min: 0, max: 5, step: 1, required: false }
@@ -41,6 +42,7 @@ collections:
       - { label: 'Permalink', name: 'permalink', widget: 'string'}
       - { label: 'Image', name: 'image', widget: 'image', choose_url: true, default: "assets/images/logo.png", required: false }
       - { label: 'Image Alt', name: 'image_alt', widget: 'string' }
+      - { label: 'Image Credit', name: 'image_credit', widget: 'string' }
       - { label: 'Image Shadow', name: 'imageshadow', widget: 'boolean', default: false, required: false }
       - { label: 'Comments', name: 'comments', widget: 'boolean', default: false, required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
